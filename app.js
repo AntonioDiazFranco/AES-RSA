@@ -1,6 +1,6 @@
 const _crypto = require("crypto-js"); 
 
-/// AES 256
+/// AES 256 -------------------------
 var _password = '123456'; 
 var _textToEncrypt = 'Holi luis!';
 
@@ -24,6 +24,7 @@ console.log(`Decrypted message: ${_uncipherText}`);
     Decrypted message: Holi luis!
 */
 
+// RSA -------------------------
 
 const { generateKeyPair } = require('crypto');
 generateKeyPair('rsa', {
